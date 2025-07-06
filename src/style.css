@@ -1,0 +1,63 @@
+html {
+    background-color: rgb(252, 216, 255);
+    opacity: 1;
+}
+.notificacao{
+    display: none;
+    position:absolute;
+    z-index: 10;
+    font-size: large;
+}
+button{
+    font-size: large;
+}
+.juncao{
+    position: relative; 
+    display: inline-block;
+    left: 50%;
+    font-size: large;
+}
+
+h1 {
+    text-align: center; 
+    color: rgb(187, 6, 75);
+}
+p {
+    text-align: justify;
+    font-size: large;
+}
+.Hobbies {
+    list-style: lower-alpha;
+    font-size: large;
+    line-height: 2;
+}
+img {
+    border-radius: 8px;
+}
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid #464646;
+}
+tr:hover {
+    background-color: #ff75e1;
+}
+table {
+    position:absolute;
+    top:38%;
+    right:0 ;
+    z-index:1;
+    width: 75px;
+    height: 80px;
+}
+a {
+    font-size: larger;
+    color: black;
+}
+a:hover {
+    background-color: rgb(20, 73, 220);
+    border-radius: 6px;
+}
